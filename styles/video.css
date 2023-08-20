@@ -33,7 +33,7 @@
     line-height: 20px;
 
     margin-top: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .video-author,
@@ -48,7 +48,7 @@
 
 
   .channel-pfp {
-    width: 40px;
+    width: 36px;
     border-radius: 30px;
 
   }
@@ -62,7 +62,7 @@
   } */
 
   .thumbnail-row {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
   }
 
