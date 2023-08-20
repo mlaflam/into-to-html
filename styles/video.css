@@ -84,7 +84,7 @@
     padding-bottom: 4px;
   }
 
-  .video-link, .video-preview-link {
+  .video-link, .video-preview-link, .profile-link{
     color: black;
     text-decoration: none;
   }
