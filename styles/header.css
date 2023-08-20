@@ -28,6 +28,7 @@
 
   margin-left: 24px;
   margin-right: 24px;
+  cursor: pointer;
 }
 
 .youtube-logo {
@@ -94,7 +95,7 @@
 .search-button {
   height: 40px;
   width: 66px;
-  background-color: rgb (240, 240, 240);
+  background-color: rgb(246, 246, 246);
   border-width: 1px;
   border-style: solid;
   border-color: rgb(192, 192, 192);
@@ -103,6 +104,10 @@
 
   margin-left: -20px;
   cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(240, 240, 240);
 }
 
 .search-button .tooltip,
@@ -143,12 +148,16 @@
 .voice-search-button {
   height: 40px;
   width: 40px;
-  background-color: rgb (245, 245, 245);
+  background-color: rgb(245, 245, 245);
   border: none;
   border-radius: 20px;
 
   margin-left: 10px;
   cursor: pointer;
+}
+
+.voice-search-button:hover {
+  background-color: rgb(230, 230, 230);
 }
 
 .voice-search-icon {
@@ -169,6 +178,20 @@
   height: 24px;
 }
 
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notifications-icon-container{
+  padding: 5px;
+}
+
+.upload-icon-container:hover,
+.youtube-apps-icon-container:hover,
+.notifications-icon-container:hover {
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+  border-radius: 20px;
+}
+
 .youtube-apps-icon {
   height: 24px;
 }
@@ -179,6 +202,7 @@
 
 .notifications-icon-container {
   position: relative;
+  margin-right: 10px;
 }
 
 .notifications-count {
@@ -202,4 +226,6 @@
 .current-user-picture {
   height: 32px;
   border-radius: 16px;
+
+  margin-left: 15px;
 }
