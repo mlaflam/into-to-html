@@ -46,6 +46,10 @@
     margin-bottom: 4px;
   }
 
+  .video-author:hover {
+    color: black;
+  }
+
 
   .channel-pfp {
     width: 36px;
