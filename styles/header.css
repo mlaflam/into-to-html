@@ -39,32 +39,46 @@
   align-items: center;
 
   flex: 1;
-  max-width: 500px;
+  max-width: 630px;
 
   margin-left: 70px;
   margin-right: 35px;
 }
 
 .search-bar {
-  flex: 1;
+  flex: 0.9;
   height: 36px;
   width: 0px;
   font-size: 16px;
 
   border-width: 1px;
   border-style: solid;
-  border-color: rgb(192, 192, 192);
-  border-radius: 2px;
+  border-color: #dbdbdb;
+  border-radius: 30px;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
 
-  padding-left: 10px;
+  padding-left: 15px;
+}
+
+.search-bar:focus{
+  background: url(https://supersimple.dev/public/img/exercises/youtube/icons/search.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 9px;
+  background-size: 20px;
+  padding-left: 40px;
+}
+
+.search-bar:active::placeholder {
+  
 }
 
 .search-bar::placeholder {
   font-family: Roboto, Arial;
   font-size: 16px;
-
+  color: #8a8a8a;
+  font-weight: 300;
 }
+
 
 .search-button, 
 .voice-search-button,
@@ -84,9 +98,10 @@
   border-width: 1px;
   border-style: solid;
   border-color: rgb(192, 192, 192);
-  border-radius: 2px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 
-  margin-left: -1px;
+  margin-left: -20px;
   cursor: pointer;
 }
 
