@@ -69,9 +69,6 @@
   padding-left: 40px;
 }
 
-.search-bar:active::placeholder {
-  
-}
 
 .search-bar::placeholder {
   font-family: Roboto, Arial;
