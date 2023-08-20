@@ -7,6 +7,12 @@
 
   .thumbnail {
     width: 100%;
+    border-radius: 12px;
+    transition: border-radius 0.15s;
+  }
+
+  .thumbnail:hover {
+    border-radius: 0;
   }
 
   .video-grid {
