@@ -34,8 +34,7 @@
   margin-right: 20px;
 }
 
-.sidebar-link div {
-  font-family: Roboto, Arial;  
+.sidebar-link div { 
   font-size: 14px;
 
   display: flex;
