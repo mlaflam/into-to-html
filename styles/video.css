@@ -103,10 +103,7 @@
     bottom: 10px;
     right: 5px;
 
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px;
   }
 
   .video-link, .video-preview-link, .profile-link{
@@ -128,10 +125,7 @@
   box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
   width: 200px;
 
-  padding-left: 10px;
-  padding-right: 8px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 14px 8px 14px 10px;
   border-radius: 6px;
   
   opacity: 0;
